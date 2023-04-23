@@ -48,14 +48,14 @@ const PhonePrice = () => {
 
   return (
     <div style={{ margin: '16px', backgroundColor: 'white' }}>
-      <Typography style={{color: 'black'}} variant="h4">Low Income Users</Typography>
+      <Typography style={{color: 'black'}} variant="h5">Low Income Users</Typography>
       <TableContainer component={Paper}>
         <Table>
           <TableHead>
             <TableRow>
-              <TableCell>Name</TableCell>
-              <TableCell>Income</TableCell>
-              <TableCell>Car</TableCell>
+            <TableCell><strong>Name</strong></TableCell>
+            <TableCell><strong>Income</strong></TableCell>
+            <TableCell><strong>Car</strong></TableCell>
             </TableRow>
           </TableHead>
           <TableBody>

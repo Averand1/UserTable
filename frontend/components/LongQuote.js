@@ -47,13 +47,13 @@ const LongQuote = () => {
 
   return (
     <div style={{ margin: '16px', backgroundColor: 'white' }}>
-      <Typography style={{color: 'black'}} variant="h4">Long Quotes</Typography>
+      <Typography style={{color: 'black'}} variant="h5">Long Quotes</Typography>
       <TableContainer component={Paper}>
         <Table>
           <TableHead>
             <TableRow>
-              <TableCell>Real Name</TableCell>
-              <TableCell>Quotes</TableCell>
+            <TableCell><strong>Full Name</strong></TableCell>
+            <TableCell><strong>Quotes</strong></TableCell>
             </TableRow>
           </TableHead>
           <TableBody>

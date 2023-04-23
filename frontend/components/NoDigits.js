@@ -48,14 +48,14 @@ const NoDigits = () => {
 
   return (
     <div style={{ margin: '16px', backgroundColor: 'white' }}>
-      <Typography style={{color: 'black'}} variant="h4">No Digits</Typography>
+      <Typography style={{color: 'black'}} variant="h5">No Digits</Typography>
       <TableContainer component={Paper}>
         <Table>
           <TableHead>
             <TableRow>
-              <TableCell>Real Name</TableCell>
-              <TableCell>Email</TableCell>
-              <TableCell>Car</TableCell>
+            <TableCell><strong>Full Name</strong></TableCell>
+            <TableCell><strong>Email</strong></TableCell>
+            <TableCell><strong>Car</strong></TableCell>
             </TableRow>
           </TableHead>
           <TableBody>
