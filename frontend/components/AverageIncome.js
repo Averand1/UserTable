@@ -49,7 +49,7 @@ const AverageIncome = () => {
 
   return (
     <div style={{ margin: '16px', backgroundColor: 'white' }}>
-      <Typography style={{color: 'black'}} variant="h3">Users</Typography>
+      <Typography style={{color: 'black'}} variant="h4">Average Income</Typography>
       <TableContainer component={Paper}>
         <Table>
           <TableHead>

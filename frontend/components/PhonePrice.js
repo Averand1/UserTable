@@ -20,7 +20,7 @@ const PhonePrice = () => {
 
   useEffect(() => {
     const fetchUsers = async () => {
-      const res = await axios.get('http://localhost:5000/api/males');
+      const res = await axios.get('http://localhost:5000/api/expensive');
       setUsers(res.data);
     };
     fetchUsers();
@@ -48,7 +48,7 @@ const PhonePrice = () => {
 
   return (
     <div style={{ margin: '16px', backgroundColor: 'white' }}>
-      <Typography style={{color: 'black'}} variant="h3">Users</Typography>
+      <Typography style={{color: 'black'}} variant="h4">Expensive Phones</Typography>
       <TableContainer component={Paper}>
         <Table>
           <TableHead>

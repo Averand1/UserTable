@@ -20,7 +20,7 @@ const NoDigits = () => {
 
   useEffect(() => {
     const fetchUsers = async () => {
-      const res = await axios.get('http://localhost:5000/api/brands');
+      const res = await axios.get('http://localhost:5000/api/nodigits');
       setUsers(res.data);
     };
     fetchUsers();
@@ -48,7 +48,7 @@ const NoDigits = () => {
 
   return (
     <div style={{ margin: '16px', backgroundColor: 'white' }}>
-      <Typography style={{color: 'black'}} variant="h3">Users</Typography>
+      <Typography style={{color: 'black'}} variant="h4">No Digits</Typography>
       <TableContainer component={Paper}>
         <Table>
           <TableHead>
