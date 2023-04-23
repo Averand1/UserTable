@@ -11,7 +11,7 @@ import {
   Paper,
   IconButton
 } from '@mui/material';
-import { PhoneAndroidOutlined, NavigateBefore, NavigateNext } from '@mui/icons-material';
+import { NavigateBefore, NavigateNext } from '@mui/icons-material';
 
 const LongQuote = () => {
   const [users, setUsers] = useState([]);
